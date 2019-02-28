@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.GridLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <Button
+            android:id="@+id/baazigar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Baazigar"
+            app:layout_column="0"
+            app:layout_row="0"
+            android:onClick="buttonclicked"
+            app:layout_gravity="fill"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            />
+        <Button
+            android:id="@+id/ddlj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DDLJ"
+            app:layout_column="1"
+            app:layout_row="0"
+            android:onClick="buttonclicked"
+            app:layout_gravity="fill"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            />
+        <Button
+            android:id="@+id/dusbahane"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10 bahane"
+            app:layout_column="0"
+            app:layout_row="1"
+            app:layout_gravity="fill"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            android:onClick="buttonclicked"
+            />
+        <Button
+            android:id="@+id/ekladki"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ek ladki bheegi bhaagi si"
+            app:layout_column="1"
+            app:layout_row="1"
+            app:layout_gravity="fill"
+            android:onClick="buttonclicked"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            />
+
+        <Button
+            android:id="@+id/mainhoonna"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Main hoon Na"
+            app:layout_column="0"
+            app:layout_row="3"
+            app:layout_gravity="fill"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            android:onClick="buttonclicked"
+            />
+        <Button
+            android:id="@+id/wolamhe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WO Lamhe"
+            app:layout_column="1"
+            app:layout_row="3"
+            app:layout_gravity="fill"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            android:onClick="buttonclicked"
+            />
+        <Button
+            android:id="@+id/samjhawan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Samjhawan"
+            app:layout_column="0"
+            app:layout_row="4"
+            app:layout_gravity="fill"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            android:onClick="buttonclicked"
+            />
+        <Button
+            android:id="@+id/blueeyes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blue Eyes"
+            app:layout_column="1"
+            app:layout_row="4"
+            app:layout_gravity="fill"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            android:onClick="buttonclicked"
+            />
+
+
+    </android.support.v7.widget.GridLayout>
+</RelativeLayout>
